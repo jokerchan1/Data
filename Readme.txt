@@ -1,0 +1,5 @@
+The source data includes meteorological data (Meteorological data Set 1, 2), precipitation data (Precipitation data set 1, 2), geographic location data (Altitude, Slope), and remote sensing data (HDF files).
+The main software tool used in this study is Matlab. The files TrainSet1,2,3,4,5 and TestSet1,2,3 are used to obtain the feature factors and fire point density data in the data set. The SVM_Regression file is used to train, test and divide the forest fire rating of the SVM regression model.
+Result_Test1,2,3 are the prediction results of the three forest areas in the test set. The PredictedForestFireDensity in the file refers to the predicted forest fire density. ForestFireRiskChart refers to the divided forest fire risk rating chart. TheAbscissaofTheFirePoint and TheOrdinateofTheFirePoint are the abscissa and ordinate of the real fire point. Avg_Test1,2,3 are the results of the test set when using the monthly average precipitation value to train the regression model.
+The files Test1, 2, 3ANN, Test1, 2, 3logic are the test set results calculated by two different machine learning methods.
+
